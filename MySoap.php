@@ -2,8 +2,8 @@
 require_once 'wss/xmlseclibs.php';
 require_once 'wss/soap-wsse.php';
 
-define('PRIVATE_KEY', dirname(__FILE__) . '/597020000541.key');
-define('CERT_FILE', dirname(__FILE__) . '/597020000541.crt');
+define('PRIVATE_KEY', dirname(__FILE__) . '/asd.key');
+define('CERT_FILE', dirname(__FILE__) . '/asd.crt');
 
 class MySoap extends SoapClient {
 	private $useSSL = false;

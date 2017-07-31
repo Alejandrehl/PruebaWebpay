@@ -1,12 +1,12 @@
 <?php
 error_reporting(-1);
-$commerceId = '597020000541';
+$commerceId = 'ingrese su id de comercio';
 $buyOrder = '12345';
 $sessionId = '12334466';
 
 $returnUrl = "http://localhost/web/resultado.php";
 $finalUrl = "http://localhost/web/final.php";
-$commerceCode = '597020000541';
+$commerceCode = 'ingrese su id de comercio';
 $amount = '1990';
 $shareNumber = '';
 $shareAmount = '';
